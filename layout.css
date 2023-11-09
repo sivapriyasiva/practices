@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+.header,.footer,.aside,.article,.nav{
+    padding: 10px;
+}
+.header,.footer{
+    
+    background-color: lime;
+    height: 15%;
+    width: 100%;
+
+}
+.main{
+    display: flex;
+    flex-grow: 1;
+}
+.article{
+    
+    display: flex;
+    flex-grow: 1;
+    background-color: white;
+    height:100%;
+    
+}
+.aside{
+    background-color: #ffffcc;
+    height: 100%;
+    width: 15%;
+}
+.nav{
+    background-color: #cce5ff;
+    height: 100%;
+    width: 15%;
+
+}
+
